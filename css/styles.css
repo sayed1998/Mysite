@@ -41,6 +41,9 @@ h3{
   margin: 10px 20px;
   text-decoration: none
 }
+a:hover{
+  color: #EAF6F6;
+}
 .pro{
   text-decoration: underline;
 }
