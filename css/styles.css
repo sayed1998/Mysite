@@ -2,20 +2,28 @@ body{
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  font-size: 2em;
 }
 h1{
-  font-size: 562.5%;
+  font-size: 5.625rem;
   margin-top: 0;
   font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
 }
 h2{
+  font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 .top-container{
-  background-color: #a2eae2;
+  background-color: #EAF6F6;
   position: relative;
   padding: 100px;
 }
@@ -23,6 +31,15 @@ h3{
 
 }
 .bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+a{
+  color: #11999E;
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
 
 }
 .pro{
@@ -37,4 +54,49 @@ h3{
   position: absolute;
   left: 400px;
   bottom: 400px;
+}
+.was{
+  color: #EAF6F6;
+}
+.hr{
+  border-color: gray;
+  /*border-style: none;
+  border-top-style: dotted;*/
+  border-style: dotted none none;
+  height: 0;
+  border-top-width: thick;
+  width: 5%;
+  border-width: 5px;
+}
+
+  .btn {
+      line-height: 10;
+      background: #3498db;
+    background-image: -webkit-linear-gradient(#3498db, #2980b9);
+    background-image: -o-linear-gradient(#3498db, #2980b9);
+    background-image: linear-gradient(#3498db, #2980b9);
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.skill-row{
+  /* width: 50%; */
+  /* margin: 100px auto 100px auto; */
+  text-align: left;
 }
